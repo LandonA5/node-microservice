@@ -9,6 +9,8 @@ WORKDIR /app
 COPY package*.json ./
 
 RUN npm install
+RUN npm install express
+
 # If you are building your code for production
 # RUN npm ci --only=production
 
@@ -17,4 +19,4 @@ COPY . /app
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]

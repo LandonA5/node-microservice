@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t LandonA5/node-microservice .
+docker build -t landona5/node-microservice .
