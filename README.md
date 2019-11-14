@@ -7,7 +7,9 @@ Used the following guide as a starting point but some of the information seemed 
 
 This tutorial was also extremely useful: https://www.robinwieruch.de/node-express-server-rest-api
 
-## Useage
+## Usage
 Use curl in the terminal to GET and POST using the following as a guide:
+
 curl -X GET _URL_:8080
+
 curl -X POST -H "Content-Type:application/json" _URL_:8080 -d '{"text":"_Hello world_"}'
